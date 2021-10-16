@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/jiwoo/Desktop/m_card_game/bangtal_game.xcodeproj">
    </FileRef>
 </Workspace>
