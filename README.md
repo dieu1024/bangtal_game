@@ -1,7 +1,8 @@
 # bangtal_game
 방탈 라이브러리로 만든 틀린그림찾기 게임입니다
 
-<iframe width="634" height="370" src="https://www.youtube.com/embed/T_QkmQSLHj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/T_QkmQSLHj0
+
 
 1. 메인화면
  - 각 아이콘을 클릭하면 알맞는 테마의 틀린그림찾기 게임으로 이동합니다.
