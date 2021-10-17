@@ -1,8 +1,6 @@
 # bangtal_game
 **방탈 라이브러리로 만든 틀린그림찾기 게임입니다**
 
-<iframe width="606" height="360" src="https://www.youtube.com/embed/sJPQsvpZzPY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 https://youtu.be/sJPQsvpZzPY
 
 
@@ -15,10 +13,13 @@ https://youtu.be/sJPQsvpZzPY
 <img width="1280" alt="스크린샷 2021-10-17 오전 3 16 02" src="https://user-images.githubusercontent.com/83305042/137598086-851c0ea5-d10a-4419-b1f5-bc4a173f9be6.png">
 
 
+
 ## 각 게임 화면
 
 **1. 주토피아 테마** :rabbit:
+
 **2. 인사이드아웃 테마** :crystal_ball:
+
 **3. 코코 테마** :guitar:
 
 ```
