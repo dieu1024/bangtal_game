@@ -35,7 +35,10 @@ auto slash = Object::create("slash.png", main_scene,620,660,false);
 auto difs = Object::create("five.png", main_scene,650,660,false);
 auto check = Object::create("zero.png", main_scene,590,660,false);
 
+auto heart = Object::create("heart3.png", main_scene,290, 660, false);
+
 int count = 0;
+int heart_count = 0;
 
 void zoo_init (){
     scenez->enter();
@@ -85,6 +88,22 @@ void zoo_init (){
                 else check->setImage("five.png");
             }
     }
+        
+    if (checked == false) {
+        heart_count++;
+        
+        if(heart_count==1) heart->setImage("heart2.png");
+        else if (heart_count==2) heart->setImage("heart1.png");
+        else {
+            main_scene->enter();
+            zoobutton->show();
+            cocobutton->show();
+            insidebutton->show();
+            count = 0;
+            heart_count = 0;
+            showMessage("하트가 없어요 ㅜ.ㅜ");
+        }
+    }
 
 
     if (count == 5){
@@ -103,16 +122,17 @@ void zoo_init (){
             endGame();
             return true;
         });
+    
     back->setOnMouseCallback([&](auto, auto, auto, auto)->bool {
             main_scene->enter();
             zoobutton->show();
             cocobutton->show();
             insidebutton->show();
-            slash->hide();
-            difs->hide();
-            check->hide();
+            count = 0;
+            heart_count = 0;
             return true;
         });
+    
     hint->setOnMouseCallback([&](auto, auto, auto, auto)->bool {
             showMessage("1.햄스터 삼형제\n 2.아기코끼리\n 3.목걸이\n 4.눈썹\n 5.새로 지은 건물");
             return true;
@@ -162,6 +182,21 @@ void coco_init (){
             }
     }
 
+        if (checked == false) {
+            heart_count++;
+            
+            if(heart_count==1) heart->setImage("heart2.png");
+            else if (heart_count==2) heart->setImage("heart1.png");
+            else {
+                main_scene->enter();
+                zoobutton->show();
+                cocobutton->show();
+                insidebutton->show();
+                count = 0;
+                heart_count = 0;
+                showMessage("하트가 없어요 ㅜ.ㅜ");
+            }
+        }
 
     if (count == 4){
         showMessage("Clear");
@@ -179,13 +214,17 @@ void coco_init (){
             endGame();
             return true;
         });
+    
     back->setOnMouseCallback([&](auto, auto, auto, auto)->bool {
             main_scene->enter();
             zoobutton->show();
             cocobutton->show();
             insidebutton->show();
+            count = 0;
+            heart_count = 0;
             return true;
         });
+    
     hint->setOnMouseCallback([&](auto, auto, auto, auto)->bool {
             showMessage("1.할아버지 모자\n 2.턱\n 3.금 목걸이\n 4.미구엘은 나이키를 입는다");
             return true;
@@ -240,6 +279,21 @@ void inside_init (){
             }
     }
 
+        if (checked == false) {
+            heart_count++;
+            
+            if(heart_count==1) heart->setImage("heart2.png");
+            else if (heart_count==2) heart->setImage("heart1.png");
+            else {
+                main_scene->enter();
+                zoobutton->show();
+                cocobutton->show();
+                insidebutton->show();
+                count = 0;
+                heart_count = 0;
+                showMessage("하트가 없어요 ㅜ.ㅜ");
+            }
+        }
 
     if (count == 5){
         showMessage("Clear");
@@ -262,6 +316,8 @@ void inside_init (){
             zoobutton->show();
             cocobutton->show();
             insidebutton->show();
+            count = 0;
+            heart_count = 0;
             return true;
         });
     hint->setOnMouseCallback([&](auto, auto, auto, auto)->bool {
@@ -289,14 +345,17 @@ int main()
         slash->show();
         difs->show();
         check->show();
+        heart->show();
         
         slash->locate(scenez,620,660);
         difs->locate(scenez,650,660);
         check->locate(scenez,590,660);
+        heart->locate(scenez,290,660);
         
         slash->setScale(0.7f);
         difs->setScale(0.7f);
         check ->setScale(0.7f);
+        heart->setImage("heart3.png");
         
         return true;
     });
@@ -312,14 +371,17 @@ int main()
         slash->show();
         difs->show();
         check->show();
+        heart->show();
         
         slash->locate(scenec,620,660);
         difs->locate(scenec,650,660);
         check->locate(scenec,590,660);
+        heart->locate(scenec,290,660);
         
         slash->setScale(0.7f);
         difs->setScale(0.7f);
         check ->setScale(0.7f);
+        heart->setImage("heart3.png");
         
         return true;
     });
@@ -335,14 +397,17 @@ int main()
         slash->show();
         difs->show();
         check->show();
+        heart->show();
         
         slash->locate(scenei,620,660);
         difs->locate(scenei,650,660);
         check->locate(scenei,590,660);
+        heart->locate(scenei,290,660);
         
         slash->setScale(0.7f);
         difs->setScale(0.7f);
         check ->setScale(0.7f);
+        heart->setImage("heart3.png");
         
         return true;
     });
