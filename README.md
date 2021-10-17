@@ -1,9 +1,12 @@
 # bangtal_game
 **방탈 라이브러리로 만든 틀린그림찾기 게임입니다**
 
+
 ###### 플레이영상
 
 https://youtu.be/sJPQsvpZzPY
+
+
 
 
 
@@ -15,6 +18,8 @@ https://youtu.be/sJPQsvpZzPY
 ```
  
 <img width="1280" alt="스크린샷 2021-10-17 오전 3 16 02" src="https://user-images.githubusercontent.com/83305042/137598086-851c0ea5-d10a-4419-b1f5-bc4a173f9be6.png">
+
+
 
 
 
