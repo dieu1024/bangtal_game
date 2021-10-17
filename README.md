@@ -23,7 +23,7 @@ https://youtu.be/sJPQsvpZzPY
 
 
 
-## 각 게임 화면
+## 각 게임 화면 :round_pushpin:
 
 **1. 주토피아 테마** :rabbit:
 
