@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bangtal", "bangtal.vcxproj", "{DE867DB2-CA3E-4771-A5C2-9D1BB620B907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE867DB2-CA3E-4771-A5C2-9D1BB620B907}.Debug|x64.ActiveCfg = Debug|x64
+		{DE867DB2-CA3E-4771-A5C2-9D1BB620B907}.Debug|x64.Build.0 = Debug|x64
+		{DE867DB2-CA3E-4771-A5C2-9D1BB620B907}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE867DB2-CA3E-4771-A5C2-9D1BB620B907}.Debug|x86.Build.0 = Debug|Win32
+		{DE867DB2-CA3E-4771-A5C2-9D1BB620B907}.Release|x64.ActiveCfg = Release|x64
+		{DE867DB2-CA3E-4771-A5C2-9D1BB620B907}.Release|x64.Build.0 = Release|x64
+		{DE867DB2-CA3E-4771-A5C2-9D1BB620B907}.Release|x86.ActiveCfg = Release|Win32
+		{DE867DB2-CA3E-4771-A5C2-9D1BB620B907}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4A69E7FE-8679-49CE-8C83-28E8B496A378}
+	EndGlobalSection
+EndGlobal
+
